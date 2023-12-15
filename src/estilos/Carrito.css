@@ -1,0 +1,12 @@
+.Carrito{
+  width: 100%;
+  display: grid;
+  grid-template-rows: repeat(2, auto);
+}
+.pqts{
+  width: 100%;
+  margin-top: 120px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(360px, 1fr));
+  row-gap: 50px;
+}

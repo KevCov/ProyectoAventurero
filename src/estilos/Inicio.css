@@ -1,0 +1,165 @@
+.Menu{
+  width: 100%;
+  height: 60px;
+  background-color: rgb(94, 55, 133);
+  position: fixed;
+  z-index: 1;
+
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+}
+.link-menu{
+  width: 90px;
+  text-decoration: none;
+  color: white;
+  text-align: center;
+  line-height: 55px;
+  justify-self: center;
+}
+.link-menu:hover{
+  font-weight: bold;
+  color: #d81114;
+}
+.box-logo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 10px;
+}
+.img-logo{
+  height: 45px;
+}
+.nombre-logo{
+  font-size: 20px;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+  font-style: oblique;
+  color: white;
+}
+
+.Portada{
+  width: 100%;
+  margin-top: 60px;
+}
+.img-portada{
+  width: 100%;
+  height: 400px;
+}
+.Inicio{
+  width: 100%;
+  text-align: center;
+  display: grid;
+  grid-template-rows: 460px 120px 380px 130px 400px 140px 600px 190px;
+}
+.titulo{
+  width: 100%;
+  font-size: 40px;
+  font-weight: 900;
+  color: gray;
+  align-self: center;
+}
+
+.Section-info{
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.div-info{
+  width: 400px;
+  height: 350px;
+  justify-self: center;
+  text-align: justify;
+  padding: 8px 20px;
+}
+.h2-info{
+  color: purple;
+}
+.p-info{
+  color: black;
+}
+
+.div-info:hover{
+  box-shadow: 0px 0px 2px 2px purple;
+
+  border-radius: 8px;
+}
+
+.Section-experiencias{
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  margin-bottom: 30px;
+}
+.bloque-exp:hover{
+  transform: scale(1.1);
+  transition: all 1.5s;
+}
+.Section-certificados{
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+ 
+}
+.bloque-exp{
+  width: 250px;
+  justify-self: center;
+}
+.bloque-cert{
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+.bloque-cert p{
+  font-size: 22px;
+  font-style: oblique;
+  font-weight: 600;
+  color: gray;
+}
+.img-exp{
+  width: 200px;
+  height: 200px;
+}
+.img-cert{
+  width: 80px;
+  height: 80px;
+  justify-self: center;
+}
+.img-footer{
+  width: 90px;
+  height: 90px;
+}
+
+.Footer{
+  width: 100%;
+  height: 190px;
+  margin-top: 55px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  background-color: rgb(94, 55, 133);
+
+  color: white;
+}
+.bloque-footer1{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+.bloque-footer2{
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  justify-self: center;
+  gap: 5px;
+}
+.bloque-footer2 a, .vinculo-contac{
+  text-decoration: none;
+  color: white;
+}
+.p-footer{
+  font-size: 19px;
+  font-weight: 900;
+  color: #d81114;
+}

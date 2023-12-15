@@ -1,0 +1,61 @@
+.Destinos{
+  width: 100%;
+  text-align: center;
+  display: grid;
+  grid-template-rows: repeat(6, auto);
+  row-gap: 30px;
+}
+.Tarjeta-destino{
+  width: 100%;
+  display: grid;
+  grid-template-rows: repeat(4, 700px);
+  row-gap: 50px;
+  margin-bottom: 40px;
+}
+.bloque-destino{
+  width: 100%;
+  height: auto;
+  display: grid;
+  grid-template-rows: repeat(2, 1fr);
+}
+.img-destino{
+  width: 70%;
+  height: 400px;
+  border-radius: 15px;
+  justify-self: center;
+}
+.txt-destino{
+  width: 60%;
+  height: auto;
+  color: gray;
+  font-size: 20px;
+  font-weight: 600;
+  justify-self: center;
+}
+.link-paquetes{
+  width: 120px;
+  height: 40px;
+  border: 2px solid black;
+  border-radius: 10px;
+  justify-self: center;
+  text-decoration: none;
+  color: brown;
+  font-weight: 600;
+  line-height: 35px;
+}
+
+.Section-guias{
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.img-guia{
+  width: 90px;
+  height: 90px;
+  border-radius: 45%;
+}
+.nombre-guia{
+  color: gray;
+  font-size: 18px;
+  font-weight: 500;
+}
